@@ -1,0 +1,16 @@
+name: 功能建议
+description: 提出改进或新功能建议
+title: "[建议] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决的问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议的行为或界面
+    validations:
+      required: true

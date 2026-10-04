@@ -1,0 +1,14 @@
+SDL3, as shipped with DaysEngine
+
+Upstream:  https://github.com/libsdl-org/SDL
+Commit:    fa2c02bb6e21974a89ea9824bc53c9932abe5f9c
+Describe:  release-3.4.16
+
+Licence:   zlib. The full text is in SDL-LICENSE.txt, distributed
+           beside this file.
+
+This is unmodified SDL3. On desktop it is linked into the
+daysengine binary; on Android it is libSDL3.so in the APK, for
+the Java-to-native reason in tools/build-sdl.sh. To build against
+your own copy instead, point tools/build-sdl.sh at it, or drop the
+static-sdl feature and link the SDL3 your system provides.

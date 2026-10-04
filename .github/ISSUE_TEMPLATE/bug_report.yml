@@ -1,0 +1,39 @@
+name: 问题反馈
+description: 报告运行或界面问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先检查已有 Issue。请勿上传个人信息、访问凭据、完整游戏资源或破解文件。"
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号与 Android 版本
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: 游戏名称与版本
+      description: "说明是否使用汉化补丁或 DaysSlim 转码资源。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、预期结果与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 诊断信息
+      description: "从 App 复制诊断信息，提交前删除不希望公开的内容。"
+      render: text

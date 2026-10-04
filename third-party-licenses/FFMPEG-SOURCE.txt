@@ -1,0 +1,45 @@
+FFmpeg, as shipped with DaysEngine
+
+Upstream:  https://github.com/FFmpeg/FFmpeg
+Commit:    bf1b838f2ab88b4f8fd83443325c782ea0e0f7fa
+Describe:  n9.0.1
+
+Licence:   LGPL v2.1 or later. The full text is in COPYING.LGPLv2.1,
+           distributed beside this file.
+
+Built with:
+  Local install and compiler paths are omitted from this metadata.
+  --disable-gpl
+  --disable-nonfree
+  --disable-version3
+  --enable-shared
+  --disable-static
+  --disable-autodetect
+  --disable-programs
+  --disable-doc
+  --disable-debug
+  --enable-pic
+  --disable-encoders
+  --disable-muxers
+  --disable-devices
+  --disable-bsfs
+  --disable-decoders
+  --enable-decoder=wmv3,vc1,vorbis,opus,hevc,libdav1d
+  --disable-demuxers
+  --enable-demuxer=asf,ogg,matroska,mov
+  --enable-libdav1d
+  --pkg-config-flags=--static
+  --disable-protocols
+  --enable-protocol=file
+  --disable-network
+  --enable-cross-compile
+  --target-os=android
+  --arch=aarch64
+
+libavcodec has dav1d 1.5.1 (https://github.com/videolan/dav1d,
+BSD 2-clause, text in DAV1D-COPYING.txt) linked into it statically.
+
+These libraries are unmodified FFmpeg. DaysEngine links them
+dynamically and ships them unchanged; replacing them with your own
+build of the same soname is supported and is the point of shipping
+them shared rather than static.

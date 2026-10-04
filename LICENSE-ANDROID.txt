@@ -1,0 +1,92 @@
+DaysEngine Android 新增原创部分专有许可
+
+Copyright © 2026 Zach. All rights reserved.
+
+1. 适用对象
+
+本许可仅适用于 Zach 拥有版权且明确指定适用本许可的 DaysEngine Android 新增原创代码、界面及相关原创内容，以下简称“受许可部分”。
+
+原 DaysEngine 引擎、第三方组件、游戏资源、汉化补丁、原攻略及其他不由 Zach 拥有版权的内容不适用本许可，继续按其各自许可证或权利人的规定处理。已有开放许可下的权利不因本许可而撤销。
+
+2. 免费个人使用
+
+允许用户免费下载安装受许可部分，并在遵守适用法律及用户协议的前提下用于个人非商业用途。
+
+允许免费分享未经修改的完整官方安装包，但须保留原有作者署名、版权声明、许可文件与用户协议，不得冒充官方发布，不得删除或修改免费使用声明，不得搭售游戏资源或其他未经授权的内容。
+
+3. 收费与商业使用限制
+
+未经 Zach 事先书面许可，不得收费销售受许可部分或包含受许可部分的安装包，不得通过付费下载、订阅、激活、解锁、捆绑销售、付费附赠或其他方式收费提供受许可部分。
+
+对受许可部分进行其他商业使用、修改后分发或单独提取后分发，须取得 Zach 的书面许可；适用法律或第三方许可证另有规定的除外。
+
+4. 源代码与权利保留
+
+受许可部分的源代码不公开。本许可未明确授予的权利由 Zach 保留。第三方组件所需提供的源码、修改及其他材料按其各自许可证处理。
+
+本许可不得解释为限制适用法律或第三方许可证明确允许的行为，包括为调试 LGPL 组件的修改而依法进行的逆向工程。
+
+5. 第三方许可优先
+
+受许可部分之外的原引擎及第三方组件按各自许可证使用。就这些组件而言，其许可证优先于本许可；本许可不对其添加复制、修改、商业分发或其他权利限制。
+
+6. 现状提供与法定权利
+
+受许可部分免费按现状提供。在适用法律允许的范围内，不对特定用途适用性、兼容性、持续可用性或数据完整性作出保证。依法不得排除或限制的责任不受本条影响。
+
+7. 联系方式
+
+许可咨询及问题反馈：https://github.com/ZachShen99/DaysEngineForAndroid/issues
+
+============================================================
+
+DaysEngine Android — Proprietary Licence for Original Additions
+
+Copyright © 2026 Zach. All rights reserved.
+
+1. Scope
+This licence applies only to newly authored original code, interface material
+and other original content owned by Zach and expressly designated under this
+licence (the Covered Parts). It does not cover the original DaysEngine engine,
+third-party components, game resources, translation patches, original
+walkthroughs or material not owned by Zach. Those remain governed by their own
+licences or rights holders. Previously granted open-licence rights are not revoked.
+
+2. Free personal use
+You may download, install and use the Covered Parts free of charge for lawful
+personal, non-commercial purposes in accordance with the Terms of use.
+You may share complete, unmodified official packages for free, retaining author
+credits, copyright notices, licences and terms. Do not impersonate an official
+release, remove or alter the free-use notice, or bundle unauthorised game resources
+or other unauthorised content.
+
+3. Charges and commercial use
+Without Zach’s prior written permission, you may not sell the Covered Parts or
+packages containing them, or charge for their provision through paid downloads,
+subscriptions, activation, unlocking, bundles, paid-service gifts or otherwise.
+Other commercial use, distribution of modified Covered Parts, or distribution
+of separately extracted Covered Parts requires written permission, except where
+applicable law or third-party licences provide otherwise.
+
+4. Source and reserved rights
+Source code for the Covered Parts is not public. Rights not expressly granted
+are reserved by Zach. Source, modifications and other materials required for
+third-party components are handled under their respective licences.
+This licence does not restrict conduct expressly permitted by applicable law or
+third-party licences, including reverse engineering lawfully performed to debug
+modifications to LGPL components.
+
+5. Third-party licences take precedence
+The original engine and third-party components outside the Covered Parts remain
+under their own licences. For those components, their licences take precedence;
+this licence adds no restrictions on copying, modification, commercial distribution
+or other rights under those licences.
+
+6. As-is provision and statutory rights
+The Covered Parts are free and provided as is. To the extent permitted by law,
+no guarantee is made of fitness for a purpose, compatibility, continued availability
+or data integrity. Liability that cannot lawfully be excluded or limited is unaffected.
+
+7. Contact
+Licence enquiries and feedback:
+https://github.com/ZachShen99/DaysEngineForAndroid/issues
